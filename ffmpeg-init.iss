@@ -17,10 +17,10 @@ AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName=C:\FFmpeg
 DefaultGroupName=FFmpeg
-LicenseFile=.\ffmpeg-<version>-full_build-shared\LICENSE
-InfoBeforeFile=.\ffmpeg-<version>-full_build-shared\README.txt
+LicenseFile=ffmpeg-<version>-full_build-shared\LICENSE
+InfoBeforeFile=ffmpeg-<version>-full_build-shared\README.txt
 PrivilegesRequired=admin
-OutputDir=.\ffmpeg-inst
+OutputDir=ffmpeg-inst
 OutputBaseFilename=ffmpeg-install
 SolidCompression=yes
 WizardStyle=modern
@@ -34,13 +34,13 @@ Name: "japanese"; MessagesFile: "compiler:Languages\Japanese.isl"
 Name: "russian"; MessagesFile: "compiler:Languages\Russian.isl"
 
 [Files]
-Source: ".\ffmpeg-<version>-full_build-shared\LICENSE"; DestDir: "{app}"; Flags: ignoreversion
-Source: ".\ffmpeg-<version>-full_build-shared\README.txt"; DestDir: "{app}"; Flags: ignoreversion
-Source: ".\ffmpeg-<version>-full_build-shared\bin\*"; DestDir: "{app}\bin"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: ".\ffmpeg-<version>-full_build-shared\doc\*"; DestDir: "{app}\doc"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: ".\ffmpeg-<version>-full_build-shared\include\*"; DestDir: "{app}\include"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: ".\ffmpeg-<version>-full_build-shared\lib\*"; DestDir: "{app}\lib"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: ".\ffmpeg-<version>-full_build-shared\presets\*"; DestDir: "{app}\presets"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "ffmpeg-<version>-full_build-shared\LICENSE"; DestDir: "{app}"; Flags: ignoreversion
+Source: "ffmpeg-<version>-full_build-shared\README.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "ffmpeg-<version>-full_build-shared\bin\*"; DestDir: "{app}\bin"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "ffmpeg-<version>-full_build-shared\doc\*"; DestDir: "{app}\doc"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "ffmpeg-<version>-full_build-shared\include\*"; DestDir: "{app}\include"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "ffmpeg-<version>-full_build-shared\lib\*"; DestDir: "{app}\lib"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "ffmpeg-<version>-full_build-shared\presets\*"; DestDir: "{app}\presets"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Icons]
 Name: "{group}\FFmpeg Official Website"; Filename: "{#MyAppURL}"
