@@ -12,5 +12,5 @@ Just download the EXE file in Release.
 ffmpeg-release-full-shared.7z" version.
 3. Extract the .7z file, place the folder and the ISS file together
 4. Rename the `<version>` to actual version you use.
-5. Place the `ChineseSimplified.isl` to `C:\Program Files (x86)\Inno Setup 6\Languages`
+5. Place the `ChineseSimplified.isl` to `C:\Program Files (x86)\Inno Setup 6\Languages` (When using Inno Setup 7, this step is not needed)
 6. Compile it.
